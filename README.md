@@ -29,3 +29,5 @@ Previsão: 07/04/2021 🤞
 - Largura máximo de 1200px e centralizado(Dica: Usar margin: 0 auto;)
 
 https://rafaelmartinsja.github.io/origamid-flexbox/
+
+https://www.notion.so/Desafio-2-Flexbox-53237281c0644f9da67692c04180755c
