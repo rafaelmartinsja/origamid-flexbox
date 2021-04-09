@@ -1,22 +1,20 @@
+/* Variáveis */
+
 :root {
     --first-color: #414141; /* for text */
     --second-color: #EBEBEB; /* for images */
     --third-color: #F5F5F5; /* for background */
 }
 
+/* Variáveis */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* Configurações Globais */
 
 * {
     font-family: 'Roboto', sans-serif;
-}
-
-#container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-#menu {
-    display: flex;
+    box-sizing: border-box;
 }
 
 body {
@@ -28,5 +26,31 @@ h1, h2, p {
 }
 
 img {
+    display: block;
+    max-width: 100%;
     color: var(--second-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Container */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Menu */
+
+.menu-nav {
+    display: flex;
+
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
 }
