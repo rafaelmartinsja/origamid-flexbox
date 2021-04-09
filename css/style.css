@@ -13,7 +13,7 @@
 /* Configurações Globais */
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
     box-sizing: border-box;
 }
 
@@ -42,15 +42,71 @@ a {
     margin: 0 auto;
 }
 
-/* Menu */
+/* Header > Menu */
+
+.menu {
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-logo {
+    font-size: 2.25em;
+    font-weight: bold;
+}
+
+.menu-logo a {
+    text-transform: uppercase;
+}
 
 .menu-nav {
     display: flex;
-
 }
 
 .menu-nav ul {
     display: flex;
     flex-wrap: wrap;
-    list-style: none;
+}
+
+.menu-nav a {
+   font-size: 1.25em;
+   text-transform: uppercase;
+   display: block;
+   padding: 10px;
+}
+
+.menu-nav a:hover {
+    color: #122ab2;
+}
+
+/* Header > H1 e imagem */
+
+.menu-header {
+    max-width: 100%;
+    height: 450px;
+    background: url("https://picsum.photos/1200/450");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-header h1 {
+    font-size: 3.1875em;
+    font-weight: 700;
+    text-align: center;
+    color: var(--first-color);
+    padding-top: 140px; /* Gostaria de dar um padding (alinhar) o texto ao centro da imagem. Mas ao colocar % deu o resultado esperado. */
+    margin-bottom: 20px;
+}
+
+.menu-header p {
+    text-align: center;
+    color: var(--first-color);
+}
+
+/* Produtos */
+
+.produtos {
+    display: flex;
 }
