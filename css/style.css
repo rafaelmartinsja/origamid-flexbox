@@ -13,6 +13,8 @@
 /* Configurações Globais */
 
 * {
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     box-sizing: border-box;
 }
@@ -33,6 +35,10 @@ img {
 
 a {
     text-decoration: none;
+}
+
+section {
+    margin-bottom: 40px;
 }
 
 /* Container */
@@ -70,11 +76,16 @@ a {
     flex-wrap: wrap;
 }
 
+.menu-nav ul li {
+    list-style-type: none;
+}
+
 .menu-nav a {
    font-size: 1.25em;
    text-transform: uppercase;
    display: block;
    padding: 10px;
+   margin-left: 10px;
 }
 
 .menu-nav a:hover {
@@ -83,7 +94,10 @@ a {
 
 /* Header > H1 e imagem */
 
-.menu-header {
+.menu-header {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     max-width: 100%;
     height: 450px;
     background: url("https://picsum.photos/1200/450");
@@ -96,12 +110,13 @@ a {
     font-weight: 700;
     text-align: center;
     color: var(--first-color);
-    padding-top: 140px; /* Gostaria de dar um padding (alinhar) o texto ao centro da imagem. Mas ao colocar % deu o resultado esperado. */
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .menu-header p {
+    display: flex;
     text-align: center;
+    font-weight: 700;
     color: var(--first-color);
 }
 
@@ -109,4 +124,33 @@ a {
 
 .produtos {
     display: flex;
+}
+
+.produtos-divs {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.produtos-divs h2 {
+    font-size: 1.625em;
+}
+
+/* Texto */
+
+
+
+/* Opinions */
+
+.opinions {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
 }
