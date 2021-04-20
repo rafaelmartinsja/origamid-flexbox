@@ -1,4 +1,4 @@
-# origamid-flexbox
+#challenge-002-flexbox
 Projeto desenvolvido vendo o curso de flexbox da Origamid
 
 ### Requisito
