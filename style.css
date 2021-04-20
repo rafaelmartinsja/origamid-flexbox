@@ -1,0 +1,156 @@
+/* Variáveis */
+
+:root {
+    --first-color: #414141; /* for text */
+    --second-color: #EBEBEB; /* for images */
+    --third-color: #F5F5F5; /* for background */
+}
+
+/* Variáveis */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* Configurações Globais */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--third-color);
+}
+
+h1, h2, p {
+    color: var(--first-color);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    color: var(--second-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Container */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header > Menu */
+
+.menu {
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-logo {
+    font-size: 2.25em;
+    font-weight: bold;
+}
+
+.menu-logo a {
+    text-transform: uppercase;
+}
+
+.menu-nav {
+    display: flex;
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav ul li {
+    list-style-type: none;
+}
+
+.menu-nav a {
+   font-size: 1.25em;
+   text-transform: uppercase;
+   display: block;
+   padding: 10px;
+   margin-left: 10px;
+}
+
+.menu-nav a:hover {
+    color: #122ab2;
+}
+
+/* Header > H1 e imagem */
+
+.menu-header {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    height: 450px;
+    background: url("https://picsum.photos/1200/450");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-header h1 {
+    font-size: 3.1875em;
+    font-weight: 700;
+    text-align: center;
+    color: var(--first-color);
+    margin-bottom: 30px;
+}
+
+.menu-header p {
+    display: flex;
+    text-align: center;
+    font-weight: 700;
+    color: var(--first-color);
+}
+
+/* Produtos */
+
+.produtos {
+    display: flex;
+}
+
+.produtos-divs {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.produtos-divs h2 {
+    font-size: 1.625em;
+}
+
+/* Texto */
+
+
+
+/* Opinions */
+
+.opinions {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
