@@ -3,7 +3,14 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/produtos.css">
+        <link rel="stylesheet" href="css/text.css">
+        <link rel="stylesheet" href="css/opinions.css">
         <title>Desafio 002 - Flexbox</title>
     </head>
     <body>
@@ -23,7 +30,7 @@
                     </nav>
                     <div class="menu-header">
                         <h1>Seja Bem Vindo!</h1>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit hic eligendi nemo nihil a! Deserunt, perferendis. Nulla architecto illo perspiciatis deserunt vel, possimus fugiat molestias totam nam eius non aspernatur!</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit hic eligendi nemo nihil a! Deserunt, perferendis. Nulla architecto illo perspiciatis deserunt vel, possimus fugiat molestias totam nam eius non aspernatur!Fugit hic eligendi nemo nihil a! Deserunt, perferendis.</p>
                     </div>
                 </div>           
                
@@ -32,34 +39,44 @@
             <section class="produtos">
 
                 <div class="produtos-divs">
-                    <img src="https://picsum.photos/534/261">
+                    <img class="produtos-divs-img" src="https://picsum.photos/534/261">
                     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui sequi eius mollitia necessitatibus temporibus, perspiciatis blanditiis maxime atque et voluptate eligendi unde cum repellat sapiente soluta doloribus quasi quos. Dolorem.</p>                   
                 </div>
                 
                 <div class="produtos-divs">
-                    <img src="https://picsum.photos/534/261">
+                    <img class="produtos-divs-img" src="https://picsum.photos/534/261">
                     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui sequi eius mollitia necessitatibus temporibus, perspiciatis blanditiis maxime atque et voluptate eligendi unde cum repellat sapiente soluta doloribus quasi quos. Dolorem.</p>                   
                 </div>   
                 
                 <div class="produtos-divs">
-                    <img src="https://picsum.photos/534/261">
+                    <img class="produtos-divs-img" src="https://picsum.photos/534/261">
                     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui sequi eius mollitia necessitatibus temporibus, perspiciatis blanditiis maxime atque et voluptate eligendi unde cum repellat sapiente soluta doloribus quasi quos. Dolorem.</p>                
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui sequi eius mollitia necessitatibus temporibus, perspiciatis blanditiis maxime atque et voluptate eligendi unde cum repellat sapiente soluta doloribus quasi quos. Dolorem.</p>              
                 </div>
             </section>
 
-            <section class="texto">
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+            <section class="text">
+
+                <div class="text-div">
+                    <h2 class="text-h2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                </div>
+            
             </section>
 
             <section class="opinions">
-                <img src="https://picsum.photos/372/130">
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
 
-                <img src="https://picsum.photos/372/130">
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <div class="opinions-div">
+                    <img class="opinions-img" src="https://picsum.photos/372/130">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui sequi eius mollitia necessitatibus temporibus, perspiciatis blanditiis maxime atque et voluptate eligendi unde cum repellat sapiente soluta doloribus quasi quos. Dolorem.</p>
+                </div>
+
+                <div class="opinions-div">
+                    <img class="opinions-img" src="https://picsum.photos/372/130">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui sequi eius mollitia necessitatibus temporibus, perspiciatis blanditiis maxime atque et voluptate eligendi unde cum repellat sapiente soluta doloribus quasi quos. Dolorem.</p>
+                </div>
+
             </section>
 
             <footer class="footer">
