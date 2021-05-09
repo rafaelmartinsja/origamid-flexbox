@@ -1,0 +1,18 @@
+/* Opinions */
+.opinion-container {
+    display: flex;
+    padding:36px 0 56px;
+  }
+  .opinion {
+    display: flex;
+    align-items: center;
+    margin: 0 12px;
+  }
+  .opinion .image {
+    min-height:100px;
+    flex:1;
+  }
+  .opinion p {
+    padding: 0 24px;
+    flex:1;
+  }

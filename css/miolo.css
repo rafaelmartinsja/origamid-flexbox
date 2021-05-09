@@ -1,0 +1,14 @@
+/* Miolo */
+.miolo-container {
+    background: #EBEBEB;
+    display: flex; 
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height: 340px;
+    margin-bottom: 48px;
+  }
+  .miolo-content {
+    max-width: 550px;
+    text-align: center;
+  }

@@ -1,0 +1,16 @@
+/* Product */
+.product-container {
+    padding:56px 0;
+    display: flex;
+  }
+  .produto {
+    text-align: center;
+  }
+  
+  .produto h2 {
+    margin: 24px 0;
+  }
+  
+  .produto + .produto {
+    margin-left: 24px;
+  }

@@ -1,0 +1,12 @@
+/* General */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .image {
+    display: block;
+    width: 100%;
+    min-height: 150px;
+    background: #EBEBEB;
+  }
